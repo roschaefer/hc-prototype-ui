@@ -7,7 +7,7 @@ cache:
     - "node_modules"
 
 install:
-  - yarn install
+  - yarn install --ignore-engines
 
 script:
   - yarn run test
